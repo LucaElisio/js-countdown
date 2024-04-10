@@ -48,10 +48,12 @@ secondElem.innerText = second;
 
 ///////////////////////////////////////
 
+
 const clock = setInterval(decrease, 1000);
 
-function decrease (second) {
+function decrease () {
     second--;
+    console.log(second);
     printTime (second);
 };
 
@@ -63,3 +65,4 @@ function printTime (s) {
         clearInterval(clock);
     };
 };
+
