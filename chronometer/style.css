@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: rgb(59, 136, 59);
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 4rem;
+}
+
+.hidden {
+    display: none;
+}
